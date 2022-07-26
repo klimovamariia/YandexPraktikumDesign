@@ -256,10 +256,10 @@ input::-moz-placeholder {
 .keyboard {
 	width: 375px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	position: fixed;
-	transition: 0s ease-in-out;
+	transition: 0.3s ease-in;
 	box-shadow: 0 0 10px rgb(0 0 0 / 50%);
 	margin-bottom: calc(100vh - 688px);
 }
